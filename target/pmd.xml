@@ -1,0 +1,501 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd version="5.2.3" timestamp="2015-05-08T17:51:10.086">
+<file name="C:\Users\Domagoj\Documents\JavaTecaj\Java Workspace\raycaster\src\main\java\hr\fer\zemris\java\raytracer\AbstractRayTracerProducer.java">
+<violation beginline="21" endline="156" begincolumn="17" endcolumn="1" rule="AtLeastOneConstructor" ruleset="Controversial" package="hr.fer.zemris.java.raytracer" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/controversial.html#AtLeastOneConstructor" priority="3">
+Each class should declare at least one constructor
+</violation>
+<violation beginline="24" endline="24" begincolumn="29" endcolumn="39" rule="MethodArgumentCouldBeFinal" ruleset="Optimization" package="hr.fer.zemris.java.raytracer" class="AbstractRayTracerProducer" method="produce" variable="eye" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'eye' is not assigned and could be declared final
+</violation>
+<violation beginline="24" endline="24" begincolumn="42" endcolumn="53" rule="MethodArgumentCouldBeFinal" ruleset="Optimization" package="hr.fer.zemris.java.raytracer" class="AbstractRayTracerProducer" method="produce" variable="view" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'view' is not assigned and could be declared final
+</violation>
+<violation beginline="24" endline="24" begincolumn="56" endcolumn="69" rule="MethodArgumentCouldBeFinal" ruleset="Optimization" package="hr.fer.zemris.java.raytracer" class="AbstractRayTracerProducer" method="produce" variable="viewUp" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'viewUp' is not assigned and could be declared final
+</violation>
+<violation beginline="25" endline="25" begincolumn="72" endcolumn="81" rule="MethodArgumentCouldBeFinal" ruleset="Optimization" package="hr.fer.zemris.java.raytracer" class="AbstractRayTracerProducer" method="produce" variable="height" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'height' is not assigned and could be declared final
+</violation>
+<violation beginline="25" endline="25" begincolumn="25" endcolumn="41" rule="MethodArgumentCouldBeFinal" ruleset="Optimization" package="hr.fer.zemris.java.raytracer" class="AbstractRayTracerProducer" method="produce" variable="horizontal" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'horizontal' is not assigned and could be declared final
+</violation>
+<violation beginline="25" endline="25" begincolumn="44" endcolumn="58" rule="MethodArgumentCouldBeFinal" ruleset="Optimization" package="hr.fer.zemris.java.raytracer" class="AbstractRayTracerProducer" method="produce" variable="vertical" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'vertical' is not assigned and could be declared final
+</violation>
+<violation beginline="25" endline="25" begincolumn="61" endcolumn="69" rule="MethodArgumentCouldBeFinal" ruleset="Optimization" package="hr.fer.zemris.java.raytracer" class="AbstractRayTracerProducer" method="produce" variable="width" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'width' is not assigned and could be declared final
+</violation>
+<violation beginline="26" endline="26" begincolumn="41" endcolumn="73" rule="MethodArgumentCouldBeFinal" ruleset="Optimization" package="hr.fer.zemris.java.raytracer" class="AbstractRayTracerProducer" method="produce" variable="observer" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'observer' is not assigned and could be declared final
+</violation>
+<violation beginline="26" endline="26" begincolumn="25" endcolumn="38" rule="MethodArgumentCouldBeFinal" ruleset="Optimization" package="hr.fer.zemris.java.raytracer" class="AbstractRayTracerProducer" method="produce" variable="requestNo" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'requestNo' is not assigned and could be declared final
+</violation>
+<violation beginline="30" endline="30" begincolumn="17" endcolumn="21" rule="AvoidUsingShortType" ruleset="Controversial" package="hr.fer.zemris.java.raytracer" class="AbstractRayTracerProducer" method="produce" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/controversial.html#AvoidUsingShortType" priority="1">
+Do not use the short type
+</violation>
+<violation beginline="30" endline="30" begincolumn="35" endcolumn="39" rule="AvoidUsingShortType" ruleset="Controversial" package="hr.fer.zemris.java.raytracer" class="AbstractRayTracerProducer" method="produce" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/controversial.html#AvoidUsingShortType" priority="1">
+Do not use the short type
+</violation>
+<violation beginline="30" endline="30" begincolumn="17" endcolumn="55" rule="LocalVariableCouldBeFinal" ruleset="Optimization" package="hr.fer.zemris.java.raytracer" class="AbstractRayTracerProducer" method="produce" variable="red" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'red' could be declared final
+</violation>
+<violation beginline="31" endline="31" begincolumn="17" endcolumn="21" rule="AvoidUsingShortType" ruleset="Controversial" package="hr.fer.zemris.java.raytracer" class="AbstractRayTracerProducer" method="produce" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/controversial.html#AvoidUsingShortType" priority="1">
+Do not use the short type
+</violation>
+<violation beginline="31" endline="31" begincolumn="37" endcolumn="41" rule="AvoidUsingShortType" ruleset="Controversial" package="hr.fer.zemris.java.raytracer" class="AbstractRayTracerProducer" method="produce" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/controversial.html#AvoidUsingShortType" priority="1">
+Do not use the short type
+</violation>
+<violation beginline="31" endline="31" begincolumn="17" endcolumn="57" rule="LocalVariableCouldBeFinal" ruleset="Optimization" package="hr.fer.zemris.java.raytracer" class="AbstractRayTracerProducer" method="produce" variable="green" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'green' could be declared final
+</violation>
+<violation beginline="32" endline="32" begincolumn="17" endcolumn="21" rule="AvoidUsingShortType" ruleset="Controversial" package="hr.fer.zemris.java.raytracer" class="AbstractRayTracerProducer" method="produce" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/controversial.html#AvoidUsingShortType" priority="1">
+Do not use the short type
+</violation>
+<violation beginline="32" endline="32" begincolumn="36" endcolumn="40" rule="AvoidUsingShortType" ruleset="Controversial" package="hr.fer.zemris.java.raytracer" class="AbstractRayTracerProducer" method="produce" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/controversial.html#AvoidUsingShortType" priority="1">
+Do not use the short type
+</violation>
+<violation beginline="32" endline="32" begincolumn="17" endcolumn="56" rule="LocalVariableCouldBeFinal" ruleset="Optimization" package="hr.fer.zemris.java.raytracer" class="AbstractRayTracerProducer" method="produce" variable="blue" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'blue' could be declared final
+</violation>
+<violation beginline="35" endline="35" begincolumn="25" endcolumn="26" rule="ShortVariable" ruleset="Naming" package="hr.fer.zemris.java.raytracer" class="AbstractRayTracerProducer" method="produce" variable="og" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/naming.html#ShortVariable" priority="3">
+Avoid variables with short names like og
+</violation>
+<violation beginline="35" endline="35" begincolumn="17" endcolumn="54" rule="LocalVariableCouldBeFinal" ruleset="Optimization" package="hr.fer.zemris.java.raytracer" class="AbstractRayTracerProducer" method="produce" variable="og" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'og' could be declared final
+</violation>
+<violation beginline="37" endline="37" begincolumn="17" endcolumn="48" rule="LocalVariableCouldBeFinal" ruleset="Optimization" package="hr.fer.zemris.java.raytracer" class="AbstractRayTracerProducer" method="produce" variable="vuv" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'vuv' could be declared final
+</violation>
+<violation beginline="39" endline="40" begincolumn="17" endcolumn="44" rule="LocalVariableCouldBeFinal" ruleset="Optimization" package="hr.fer.zemris.java.raytracer" class="AbstractRayTracerProducer" method="produce" variable="yAxis" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'yAxis' could be declared final
+</violation>
+<violation beginline="41" endline="41" begincolumn="17" endcolumn="67" rule="LocalVariableCouldBeFinal" ruleset="Optimization" package="hr.fer.zemris.java.raytracer" class="AbstractRayTracerProducer" method="produce" variable="xAxis" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'xAxis' could be declared final
+</violation>
+<violation beginline="43" endline="44" begincolumn="17" endcolumn="74" rule="LocalVariableCouldBeFinal" ruleset="Optimization" package="hr.fer.zemris.java.raytracer" class="AbstractRayTracerProducer" method="produce" variable="screenCorner" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'screenCorner' could be declared final
+</violation>
+<violation beginline="46" endline="46" begincolumn="17" endcolumn="69" rule="LocalVariableCouldBeFinal" ruleset="Optimization" package="hr.fer.zemris.java.raytracer" class="AbstractRayTracerProducer" method="produce" variable="scene" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'scene' could be declared final
+</violation>
+<violation beginline="87" endline="90" begincolumn="45" endcolumn="63" rule="ExcessiveParameterList" ruleset="Code Size" package="hr.fer.zemris.java.raytracer" class="AbstractRayTracerProducer" method="calculateRGB" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/codesize.html#ExcessiveParameterList" priority="3">
+Avoid long parameter lists.
+</violation>
+<violation beginline="87" endline="87" begincolumn="46" endcolumn="50" rule="AvoidUsingShortType" ruleset="Controversial" package="hr.fer.zemris.java.raytracer" class="AbstractRayTracerProducer" method="calculateRGB" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/controversial.html#AvoidUsingShortType" priority="1">
+Do not use the short type
+</violation>
+<violation beginline="87" endline="87" begincolumn="59" endcolumn="63" rule="AvoidUsingShortType" ruleset="Controversial" package="hr.fer.zemris.java.raytracer" class="AbstractRayTracerProducer" method="calculateRGB" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/controversial.html#AvoidUsingShortType" priority="1">
+Do not use the short type
+</violation>
+<violation beginline="88" endline="88" begincolumn="25" endcolumn="29" rule="AvoidUsingShortType" ruleset="Controversial" package="hr.fer.zemris.java.raytracer" class="AbstractRayTracerProducer" method="calculateRGB" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/controversial.html#AvoidUsingShortType" priority="1">
+Do not use the short type
+</violation>
+<violation beginline="127" endline="130" begincolumn="42" endcolumn="55" rule="ExcessiveParameterList" ruleset="Code Size" package="hr.fer.zemris.java.raytracer" class="AbstractRayTracerProducer" method="calculateRGBFromTo" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/codesize.html#ExcessiveParameterList" priority="3">
+Avoid long parameter lists.
+</violation>
+<violation beginline="127" endline="127" begincolumn="43" endcolumn="47" rule="AvoidUsingShortType" ruleset="Controversial" package="hr.fer.zemris.java.raytracer" class="AbstractRayTracerProducer" method="calculateRGBFromTo" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/controversial.html#AvoidUsingShortType" priority="1">
+Do not use the short type
+</violation>
+<violation beginline="127" endline="127" begincolumn="56" endcolumn="60" rule="AvoidUsingShortType" ruleset="Controversial" package="hr.fer.zemris.java.raytracer" class="AbstractRayTracerProducer" method="calculateRGBFromTo" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/controversial.html#AvoidUsingShortType" priority="1">
+Do not use the short type
+</violation>
+<violation beginline="127" endline="127" begincolumn="71" endcolumn="75" rule="AvoidUsingShortType" ruleset="Controversial" package="hr.fer.zemris.java.raytracer" class="AbstractRayTracerProducer" method="calculateRGBFromTo" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/controversial.html#AvoidUsingShortType" priority="1">
+Do not use the short type
+</violation>
+<violation beginline="128" endline="128" begincolumn="25" endcolumn="35" rule="MethodArgumentCouldBeFinal" ruleset="Optimization" package="hr.fer.zemris.java.raytracer" class="AbstractRayTracerProducer" method="calculateRGBFromTo" variable="eye" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'eye' is not assigned and could be declared final
+</violation>
+<violation beginline="128" endline="128" begincolumn="68" endcolumn="87" rule="MethodArgumentCouldBeFinal" ruleset="Optimization" package="hr.fer.zemris.java.raytracer" class="AbstractRayTracerProducer" method="calculateRGBFromTo" variable="screenCorner" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'screenCorner' is not assigned and could be declared final
+</violation>
+<violation beginline="128" endline="128" begincolumn="38" endcolumn="50" rule="MethodArgumentCouldBeFinal" ruleset="Optimization" package="hr.fer.zemris.java.raytracer" class="AbstractRayTracerProducer" method="calculateRGBFromTo" variable="xAxis" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'xAxis' is not assigned and could be declared final
+</violation>
+<violation beginline="128" endline="128" begincolumn="53" endcolumn="65" rule="MethodArgumentCouldBeFinal" ruleset="Optimization" package="hr.fer.zemris.java.raytracer" class="AbstractRayTracerProducer" method="calculateRGBFromTo" variable="yAxis" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'yAxis' is not assigned and could be declared final
+</violation>
+<violation beginline="129" endline="129" begincolumn="38" endcolumn="54" rule="MethodArgumentCouldBeFinal" ruleset="Optimization" package="hr.fer.zemris.java.raytracer" class="AbstractRayTracerProducer" method="calculateRGBFromTo" variable="horizontal" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'horizontal' is not assigned and could be declared final
+</violation>
+<violation beginline="129" endline="129" begincolumn="25" endcolumn="35" rule="MethodArgumentCouldBeFinal" ruleset="Optimization" package="hr.fer.zemris.java.raytracer" class="AbstractRayTracerProducer" method="calculateRGBFromTo" variable="scene" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'scene' is not assigned and could be declared final
+</violation>
+<violation beginline="129" endline="129" begincolumn="57" endcolumn="71" rule="MethodArgumentCouldBeFinal" ruleset="Optimization" package="hr.fer.zemris.java.raytracer" class="AbstractRayTracerProducer" method="calculateRGBFromTo" variable="vertical" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'vertical' is not assigned and could be declared final
+</violation>
+<violation beginline="129" endline="129" begincolumn="74" endcolumn="82" rule="MethodArgumentCouldBeFinal" ruleset="Optimization" package="hr.fer.zemris.java.raytracer" class="AbstractRayTracerProducer" method="calculateRGBFromTo" variable="width" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'width' is not assigned and could be declared final
+</violation>
+<violation beginline="130" endline="130" begincolumn="25" endcolumn="34" rule="MethodArgumentCouldBeFinal" ruleset="Optimization" package="hr.fer.zemris.java.raytracer" class="AbstractRayTracerProducer" method="calculateRGBFromTo" variable="height" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'height' is not assigned and could be declared final
+</violation>
+<violation beginline="130" endline="130" begincolumn="47" endcolumn="54" rule="MethodArgumentCouldBeFinal" ruleset="Optimization" package="hr.fer.zemris.java.raytracer" class="AbstractRayTracerProducer" method="calculateRGBFromTo" variable="yMax" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'yMax' is not assigned and could be declared final
+</violation>
+<violation beginline="130" endline="130" begincolumn="37" endcolumn="44" rule="MethodArgumentCouldBeFinal" ruleset="Optimization" package="hr.fer.zemris.java.raytracer" class="AbstractRayTracerProducer" method="calculateRGBFromTo" variable="yMin" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'yMin' is not assigned and could be declared final
+</violation>
+<violation beginline="131" endline="131" begincolumn="17" endcolumn="21" rule="AvoidUsingShortType" ruleset="Controversial" package="hr.fer.zemris.java.raytracer" class="AbstractRayTracerProducer" method="calculateRGBFromTo" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/controversial.html#AvoidUsingShortType" priority="1">
+Do not use the short type
+</violation>
+<violation beginline="131" endline="131" begincolumn="35" endcolumn="39" rule="AvoidUsingShortType" ruleset="Controversial" package="hr.fer.zemris.java.raytracer" class="AbstractRayTracerProducer" method="calculateRGBFromTo" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/controversial.html#AvoidUsingShortType" priority="1">
+Do not use the short type
+</violation>
+<violation beginline="131" endline="154" begincolumn="25" endcolumn="42" rule="DataflowAnomalyAnalysis" ruleset="Controversial" package="hr.fer.zemris.java.raytracer" class="AbstractRayTracerProducer" method="calculateRGBFromTo" variable="rgb" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DU'-anomaly for variable 'rgb' (lines '131'-'154').
+</violation>
+<violation beginline="131" endline="131" begincolumn="17" endcolumn="42" rule="LocalVariableCouldBeFinal" ruleset="Optimization" package="hr.fer.zemris.java.raytracer" class="AbstractRayTracerProducer" method="calculateRGBFromTo" variable="rgb" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'rgb' could be declared final
+</violation>
+<violation beginline="132" endline="154" begincolumn="21" endcolumn="41" rule="DataflowAnomalyAnalysis" ruleset="Controversial" package="hr.fer.zemris.java.raytracer" class="AbstractRayTracerProducer" method="calculateRGBFromTo" variable="offset" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DU'-anomaly for variable 'offset' (lines '132'-'154').
+</violation>
+<violation beginline="136" endline="137" begincolumn="33" endcolumn="62" rule="LocalVariableCouldBeFinal" ruleset="Optimization" package="hr.fer.zemris.java.raytracer" class="AbstractRayTracerProducer" method="calculateRGBFromTo" variable="xComponent" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'xComponent' could be declared final
+</violation>
+<violation beginline="138" endline="139" begincolumn="33" endcolumn="63" rule="LocalVariableCouldBeFinal" ruleset="Optimization" package="hr.fer.zemris.java.raytracer" class="AbstractRayTracerProducer" method="calculateRGBFromTo" variable="yComponent" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'yComponent' could be declared final
+</violation>
+<violation beginline="140" endline="141" begincolumn="33" endcolumn="59" rule="LocalVariableCouldBeFinal" ruleset="Optimization" package="hr.fer.zemris.java.raytracer" class="AbstractRayTracerProducer" method="calculateRGBFromTo" variable="screenPoint" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'screenPoint' could be declared final
+</violation>
+<violation beginline="143" endline="143" begincolumn="33" endcolumn="74" rule="LocalVariableCouldBeFinal" ruleset="Optimization" package="hr.fer.zemris.java.raytracer" class="AbstractRayTracerProducer" method="calculateRGBFromTo" variable="ray" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'ray' could be declared final
+</violation>
+<violation beginline="151" endline="154" begincolumn="33" endcolumn="40" rule="DataflowAnomalyAnalysis" ruleset="Controversial" package="hr.fer.zemris.java.raytracer" class="AbstractRayTracerProducer" method="calculateRGBFromTo" variable="offset" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DU'-anomaly for variable 'offset' (lines '151'-'154').
+</violation>
+</file>
+<file name="C:\Users\Domagoj\Documents\JavaTecaj\Java Workspace\raycaster\src\main\java\hr\fer\zemris\java\raytracer\RayCaster.java">
+<violation beginline="17" endline="30" begincolumn="24" endcolumn="1" rule="UseUtilityClass" ruleset="Design" package="hr.fer.zemris.java.raytracer" class="RayCaster" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/design.html#UseUtilityClass" priority="3">
+All methods are static.  Consider using a utility class instead. Alternatively, you could add a private constructor or make the class abstract to silence this warning.
+</violation>
+<violation beginline="25" endline="25" begincolumn="33" endcolumn="45" rule="UseVarargs" ruleset="Design" package="hr.fer.zemris.java.raytracer" class="RayCaster" method="main" variable="args" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/design.html#UseVarargs" priority="4">
+Consider using varargs for methods or constructors which take an array the last parameter.
+</violation>
+<violation beginline="25" endline="25" begincolumn="33" endcolumn="45" rule="MethodArgumentCouldBeFinal" ruleset="Optimization" package="hr.fer.zemris.java.raytracer" class="RayCaster" method="main" variable="args" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'args' is not assigned and could be declared final
+</violation>
+</file>
+<file name="C:\Users\Domagoj\Documents\JavaTecaj\Java Workspace\raycaster\src\main\java\hr\fer\zemris\java\raytracer\RayCasterParallel.java">
+<violation beginline="17" endline="30" begincolumn="32" endcolumn="1" rule="UseUtilityClass" ruleset="Design" package="hr.fer.zemris.java.raytracer" class="RayCasterParallel" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/design.html#UseUtilityClass" priority="3">
+All methods are static.  Consider using a utility class instead. Alternatively, you could add a private constructor or make the class abstract to silence this warning.
+</violation>
+<violation beginline="25" endline="25" begincolumn="33" endcolumn="45" rule="UseVarargs" ruleset="Design" package="hr.fer.zemris.java.raytracer" class="RayCasterParallel" method="main" variable="args" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/design.html#UseVarargs" priority="4">
+Consider using varargs for methods or constructors which take an array the last parameter.
+</violation>
+<violation beginline="25" endline="25" begincolumn="33" endcolumn="45" rule="MethodArgumentCouldBeFinal" ruleset="Optimization" package="hr.fer.zemris.java.raytracer" class="RayCasterParallel" method="main" variable="args" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'args' is not assigned and could be declared final
+</violation>
+</file>
+<file name="C:\Users\Domagoj\Documents\JavaTecaj\Java Workspace\raycaster\src\main\java\hr\fer\zemris\java\raytracer\RayTracer.java">
+<violation beginline="23" endline="183" begincolumn="24" endcolumn="1" rule="UseUtilityClass" ruleset="Design" package="hr.fer.zemris.java.raytracer" class="RayTracer" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/design.html#UseUtilityClass" priority="3">
+All methods are static.  Consider using a utility class instead. Alternatively, you could add a private constructor or make the class abstract to silence this warning.
+</violation>
+<violation beginline="45" endline="45" begincolumn="57" endcolumn="67" rule="UseVarargs" ruleset="Design" package="hr.fer.zemris.java.raytracer" class="RayTracer" method="tracer" variable="rgb" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/design.html#UseVarargs" priority="4">
+Consider using varargs for methods or constructors which take an array the last parameter.
+</violation>
+<violation beginline="45" endline="45" begincolumn="57" endcolumn="61" rule="AvoidUsingShortType" ruleset="Controversial" package="hr.fer.zemris.java.raytracer" class="RayTracer" method="tracer" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/controversial.html#AvoidUsingShortType" priority="1">
+Do not use the short type
+</violation>
+<violation beginline="45" endline="45" begincolumn="48" endcolumn="54" rule="MethodArgumentCouldBeFinal" ruleset="Optimization" package="hr.fer.zemris.java.raytracer" class="RayTracer" method="tracer" variable="ray" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'ray' is not assigned and could be declared final
+</violation>
+<violation beginline="45" endline="45" begincolumn="57" endcolumn="67" rule="MethodArgumentCouldBeFinal" ruleset="Optimization" package="hr.fer.zemris.java.raytracer" class="RayTracer" method="tracer" variable="rgb" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'rgb' is not assigned and could be declared final
+</violation>
+<violation beginline="45" endline="45" begincolumn="35" endcolumn="45" rule="MethodArgumentCouldBeFinal" ruleset="Optimization" package="hr.fer.zemris.java.raytracer" class="RayTracer" method="tracer" variable="scene" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'scene' is not assigned and could be declared final
+</violation>
+<violation beginline="48" endline="49" begincolumn="17" endcolumn="56" rule="LocalVariableCouldBeFinal" ruleset="Optimization" package="hr.fer.zemris.java.raytracer" class="RayTracer" method="tracer" variable="intersection" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'intersection' could be declared final
+</violation>
+<violation beginline="71" endline="76" begincolumn="41" endcolumn="88" rule="DataflowAnomalyAnalysis" ruleset="Controversial" package="hr.fer.zemris.java.raytracer" class="RayTracer" method="getClosestIntersection" variable="object" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'UR'-anomaly for variable 'object' (lines '71'-'76').
+</violation>
+<violation beginline="72" endline="72" begincolumn="25" endcolumn="53" rule="MethodArgumentCouldBeFinal" ruleset="Optimization" package="hr.fer.zemris.java.raytracer" class="RayTracer" method="getClosestIntersection" variable="objects" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'objects' is not assigned and could be declared final
+</violation>
+<violation beginline="72" endline="72" begincolumn="56" endcolumn="62" rule="MethodArgumentCouldBeFinal" ruleset="Optimization" package="hr.fer.zemris.java.raytracer" class="RayTracer" method="getClosestIntersection" variable="ray" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'ray' is not assigned and could be declared final
+</violation>
+<violation beginline="75" endline="75" begincolumn="22" endcolumn="43" rule="LocalVariableCouldBeFinal" ruleset="Optimization" package="hr.fer.zemris.java.raytracer" class="RayTracer" method="getClosestIntersection" variable="object" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'object' could be declared final
+</violation>
+<violation beginline="76" endline="76" begincolumn="25" endcolumn="88" rule="LocalVariableCouldBeFinal" ruleset="Optimization" package="hr.fer.zemris.java.raytracer" class="RayTracer" method="getClosestIntersection" variable="current" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'current' could be declared final
+</violation>
+<violation beginline="112" endline="118" begincolumn="29" endcolumn="64" rule="DataflowAnomalyAnalysis" ruleset="Controversial" package="hr.fer.zemris.java.raytracer" class="RayTracer" method="determineColorForIntersection" variable="source" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'UR'-anomaly for variable 'source' (lines '112'-'118').
+</violation>
+<violation beginline="112" endline="112" begincolumn="59" endcolumn="69" rule="MethodArgumentCouldBeFinal" ruleset="Optimization" package="hr.fer.zemris.java.raytracer" class="RayTracer" method="determineColorForIntersection" variable="scene" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'scene' is not assigned and could be declared final
+</violation>
+<violation beginline="113" endline="113" begincolumn="55" endcolumn="59" rule="AvoidUsingShortType" ruleset="Controversial" package="hr.fer.zemris.java.raytracer" class="RayTracer" method="determineColorForIntersection" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/controversial.html#AvoidUsingShortType" priority="1">
+Do not use the short type
+</violation>
+<violation beginline="113" endline="113" begincolumn="25" endcolumn="52" rule="MethodArgumentCouldBeFinal" ruleset="Optimization" package="hr.fer.zemris.java.raytracer" class="RayTracer" method="determineColorForIntersection" variable="intersection" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'intersection' is not assigned and could be declared final
+</violation>
+<violation beginline="113" endline="113" begincolumn="68" endcolumn="74" rule="MethodArgumentCouldBeFinal" ruleset="Optimization" package="hr.fer.zemris.java.raytracer" class="RayTracer" method="determineColorForIntersection" variable="ray" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'ray' is not assigned and could be declared final
+</violation>
+<violation beginline="113" endline="113" begincolumn="55" endcolumn="65" rule="MethodArgumentCouldBeFinal" ruleset="Optimization" package="hr.fer.zemris.java.raytracer" class="RayTracer" method="determineColorForIntersection" variable="rgb" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'rgb' is not assigned and could be declared final
+</violation>
+<violation beginline="117" endline="117" begincolumn="22" endcolumn="39" rule="LocalVariableCouldBeFinal" ruleset="Optimization" package="hr.fer.zemris.java.raytracer" class="RayTracer" method="determineColorForIntersection" variable="source" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'source' could be declared final
+</violation>
+<violation beginline="118" endline="119" begincolumn="25" endcolumn="64" rule="LocalVariableCouldBeFinal" ruleset="Optimization" package="hr.fer.zemris.java.raytracer" class="RayTracer" method="determineColorForIntersection" variable="fromSource" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'fromSource' could be declared final
+</violation>
+<violation beginline="122" endline="122" begincolumn="41" endcolumn="59" rule="LongVariable" ruleset="Naming" package="hr.fer.zemris.java.raytracer" class="RayTracer" method="determineColorForIntersection" variable="currentIntersection" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/naming.html#LongVariable" priority="3">
+Avoid excessively long variable names like currentIntersection
+</violation>
+<violation beginline="122" endline="123" begincolumn="25" endcolumn="71" rule="LocalVariableCouldBeFinal" ruleset="Optimization" package="hr.fer.zemris.java.raytracer" class="RayTracer" method="determineColorForIntersection" variable="currentIntersection" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'currentIntersection' could be declared final
+</violation>
+<violation beginline="126" endline="127" begincolumn="33" endcolumn="91" rule="LocalVariableCouldBeFinal" ruleset="Optimization" package="hr.fer.zemris.java.raytracer" class="RayTracer" method="determineColorForIntersection" variable="dist1" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'dist1' could be declared final
+</violation>
+<violation beginline="128" endline="129" begincolumn="33" endcolumn="55" rule="LocalVariableCouldBeFinal" ruleset="Optimization" package="hr.fer.zemris.java.raytracer" class="RayTracer" method="determineColorForIntersection" variable="dist2" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'dist2' could be declared final
+</violation>
+<violation beginline="135" endline="135" begincolumn="33" endcolumn="52" rule="LongVariable" ruleset="Naming" package="hr.fer.zemris.java.raytracer" class="RayTracer" method="determineColorForIntersection" variable="intersectionToSource" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/naming.html#LongVariable" priority="3">
+Avoid excessively long variable names like intersectionToSource
+</violation>
+<violation beginline="135" endline="136" begincolumn="25" endcolumn="81" rule="LocalVariableCouldBeFinal" ruleset="Optimization" package="hr.fer.zemris.java.raytracer" class="RayTracer" method="determineColorForIntersection" variable="intersectionToSource" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'intersectionToSource' could be declared final
+</violation>
+<violation beginline="137" endline="137" begincolumn="25" endcolumn="65" rule="LocalVariableCouldBeFinal" ruleset="Optimization" package="hr.fer.zemris.java.raytracer" class="RayTracer" method="determineColorForIntersection" variable="normal" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'normal' could be declared final
+</violation>
+<violation beginline="138" endline="140" begincolumn="25" endcolumn="61" rule="LocalVariableCouldBeFinal" ruleset="Optimization" package="hr.fer.zemris.java.raytracer" class="RayTracer" method="determineColorForIntersection" variable="reflective" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'reflective' could be declared final
+</violation>
+<violation beginline="141" endline="142" begincolumn="25" endcolumn="52" rule="LocalVariableCouldBeFinal" ruleset="Optimization" package="hr.fer.zemris.java.raytracer" class="RayTracer" method="determineColorForIntersection" variable="intersectionToEye" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'intersectionToEye' could be declared final
+</violation>
+<violation beginline="144" endline="145" begincolumn="25" endcolumn="86" rule="LocalVariableCouldBeFinal" ruleset="Optimization" package="hr.fer.zemris.java.raytracer" class="RayTracer" method="determineColorForIntersection" variable="scalarLN" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'scalarLN' could be declared final
+</violation>
+<violation beginline="146" endline="148" begincolumn="25" endcolumn="62" rule="LocalVariableCouldBeFinal" ruleset="Optimization" package="hr.fer.zemris.java.raytracer" class="RayTracer" method="determineColorForIntersection" variable="scalarRVtoN" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'scalarRVtoN' could be declared final
+</violation>
+<violation beginline="150" endline="152" begincolumn="25" endcolumn="81" rule="LocalVariableCouldBeFinal" ruleset="Optimization" package="hr.fer.zemris.java.raytracer" class="RayTracer" method="determineColorForIntersection" variable="red" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'red' could be declared final
+</violation>
+<violation beginline="153" endline="155" begincolumn="25" endcolumn="81" rule="LocalVariableCouldBeFinal" ruleset="Optimization" package="hr.fer.zemris.java.raytracer" class="RayTracer" method="determineColorForIntersection" variable="green" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'green' could be declared final
+</violation>
+<violation beginline="156" endline="158" begincolumn="25" endcolumn="81" rule="LocalVariableCouldBeFinal" ruleset="Optimization" package="hr.fer.zemris.java.raytracer" class="RayTracer" method="determineColorForIntersection" variable="blue" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'blue' could be declared final
+</violation>
+<violation beginline="177" endline="177" begincolumn="67" endcolumn="67" rule="ShortVariable" ruleset="Naming" package="hr.fer.zemris.java.raytracer" class="RayTracer" method="setRGB" variable="b" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/naming.html#ShortVariable" priority="3">
+Avoid variables with short names like b
+</violation>
+<violation beginline="177" endline="177" begincolumn="60" endcolumn="60" rule="ShortVariable" ruleset="Naming" package="hr.fer.zemris.java.raytracer" class="RayTracer" method="setRGB" variable="g" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/naming.html#ShortVariable" priority="3">
+Avoid variables with short names like g
+</violation>
+<violation beginline="177" endline="177" begincolumn="53" endcolumn="53" rule="ShortVariable" ruleset="Naming" package="hr.fer.zemris.java.raytracer" class="RayTracer" method="setRGB" variable="r" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/naming.html#ShortVariable" priority="3">
+Avoid variables with short names like r
+</violation>
+<violation beginline="177" endline="177" begincolumn="36" endcolumn="40" rule="AvoidUsingShortType" ruleset="Controversial" package="hr.fer.zemris.java.raytracer" class="RayTracer" method="setRGB" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/controversial.html#AvoidUsingShortType" priority="1">
+Do not use the short type
+</violation>
+<violation beginline="177" endline="177" begincolumn="63" endcolumn="67" rule="MethodArgumentCouldBeFinal" ruleset="Optimization" package="hr.fer.zemris.java.raytracer" class="RayTracer" method="setRGB" variable="b" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'b' is not assigned and could be declared final
+</violation>
+<violation beginline="177" endline="177" begincolumn="56" endcolumn="60" rule="MethodArgumentCouldBeFinal" ruleset="Optimization" package="hr.fer.zemris.java.raytracer" class="RayTracer" method="setRGB" variable="g" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'g' is not assigned and could be declared final
+</violation>
+<violation beginline="177" endline="177" begincolumn="49" endcolumn="53" rule="MethodArgumentCouldBeFinal" ruleset="Optimization" package="hr.fer.zemris.java.raytracer" class="RayTracer" method="setRGB" variable="r" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'r' is not assigned and could be declared final
+</violation>
+<violation beginline="178" endline="178" begincolumn="27" endcolumn="31" rule="AvoidUsingShortType" ruleset="Controversial" package="hr.fer.zemris.java.raytracer" class="RayTracer" method="setRGB" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/controversial.html#AvoidUsingShortType" priority="1">
+Do not use the short type
+</violation>
+<violation beginline="179" endline="179" begincolumn="27" endcolumn="31" rule="AvoidUsingShortType" ruleset="Controversial" package="hr.fer.zemris.java.raytracer" class="RayTracer" method="setRGB" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/controversial.html#AvoidUsingShortType" priority="1">
+Do not use the short type
+</violation>
+<violation beginline="180" endline="180" begincolumn="27" endcolumn="31" rule="AvoidUsingShortType" ruleset="Controversial" package="hr.fer.zemris.java.raytracer" class="RayTracer" method="setRGB" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/controversial.html#AvoidUsingShortType" priority="1">
+Do not use the short type
+</violation>
+</file>
+<file name="C:\Users\Domagoj\Documents\JavaTecaj\Java Workspace\raycaster\src\main\java\hr\fer\zemris\java\raytracer\SequentialRayTracerProducer.java">
+<violation beginline="20" endline="31" begincolumn="8" endcolumn="1" rule="AtLeastOneConstructor" ruleset="Controversial" package="hr.fer.zemris.java.raytracer" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/controversial.html#AtLeastOneConstructor" priority="3">
+Each class should declare at least one constructor
+</violation>
+<violation beginline="23" endline="26" begincolumn="36" endcolumn="35" rule="ExcessiveParameterList" ruleset="Code Size" package="hr.fer.zemris.java.raytracer" class="SequentialRayTracerProducer" method="calculateRGB" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/codesize.html#ExcessiveParameterList" priority="3">
+Avoid long parameter lists.
+</violation>
+<violation beginline="23" endline="23" begincolumn="37" endcolumn="41" rule="AvoidUsingShortType" ruleset="Controversial" package="hr.fer.zemris.java.raytracer" class="SequentialRayTracerProducer" method="calculateRGB" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/controversial.html#AvoidUsingShortType" priority="1">
+Do not use the short type
+</violation>
+<violation beginline="23" endline="23" begincolumn="50" endcolumn="54" rule="AvoidUsingShortType" ruleset="Controversial" package="hr.fer.zemris.java.raytracer" class="SequentialRayTracerProducer" method="calculateRGB" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/controversial.html#AvoidUsingShortType" priority="1">
+Do not use the short type
+</violation>
+<violation beginline="23" endline="23" begincolumn="65" endcolumn="69" rule="AvoidUsingShortType" ruleset="Controversial" package="hr.fer.zemris.java.raytracer" class="SequentialRayTracerProducer" method="calculateRGB" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/controversial.html#AvoidUsingShortType" priority="1">
+Do not use the short type
+</violation>
+<violation beginline="23" endline="23" begincolumn="65" endcolumn="76" rule="MethodArgumentCouldBeFinal" ruleset="Optimization" package="hr.fer.zemris.java.raytracer" class="SequentialRayTracerProducer" method="calculateRGB" variable="blue" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'blue' is not assigned and could be declared final
+</violation>
+<violation beginline="23" endline="23" begincolumn="50" endcolumn="62" rule="MethodArgumentCouldBeFinal" ruleset="Optimization" package="hr.fer.zemris.java.raytracer" class="SequentialRayTracerProducer" method="calculateRGB" variable="green" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'green' is not assigned and could be declared final
+</violation>
+<violation beginline="23" endline="23" begincolumn="37" endcolumn="47" rule="MethodArgumentCouldBeFinal" ruleset="Optimization" package="hr.fer.zemris.java.raytracer" class="SequentialRayTracerProducer" method="calculateRGB" variable="red" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'red' is not assigned and could be declared final
+</violation>
+<violation beginline="24" endline="24" begincolumn="25" endcolumn="35" rule="MethodArgumentCouldBeFinal" ruleset="Optimization" package="hr.fer.zemris.java.raytracer" class="SequentialRayTracerProducer" method="calculateRGB" variable="eye" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'eye' is not assigned and could be declared final
+</violation>
+<violation beginline="24" endline="24" begincolumn="68" endcolumn="87" rule="MethodArgumentCouldBeFinal" ruleset="Optimization" package="hr.fer.zemris.java.raytracer" class="SequentialRayTracerProducer" method="calculateRGB" variable="screenCorner" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'screenCorner' is not assigned and could be declared final
+</violation>
+<violation beginline="24" endline="24" begincolumn="38" endcolumn="50" rule="MethodArgumentCouldBeFinal" ruleset="Optimization" package="hr.fer.zemris.java.raytracer" class="SequentialRayTracerProducer" method="calculateRGB" variable="xAxis" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'xAxis' is not assigned and could be declared final
+</violation>
+<violation beginline="24" endline="24" begincolumn="53" endcolumn="65" rule="MethodArgumentCouldBeFinal" ruleset="Optimization" package="hr.fer.zemris.java.raytracer" class="SequentialRayTracerProducer" method="calculateRGB" variable="yAxis" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'yAxis' is not assigned and could be declared final
+</violation>
+<violation beginline="25" endline="25" begincolumn="38" endcolumn="54" rule="MethodArgumentCouldBeFinal" ruleset="Optimization" package="hr.fer.zemris.java.raytracer" class="SequentialRayTracerProducer" method="calculateRGB" variable="horizontal" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'horizontal' is not assigned and could be declared final
+</violation>
+<violation beginline="25" endline="25" begincolumn="25" endcolumn="35" rule="MethodArgumentCouldBeFinal" ruleset="Optimization" package="hr.fer.zemris.java.raytracer" class="SequentialRayTracerProducer" method="calculateRGB" variable="scene" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'scene' is not assigned and could be declared final
+</violation>
+<violation beginline="25" endline="25" begincolumn="57" endcolumn="71" rule="MethodArgumentCouldBeFinal" ruleset="Optimization" package="hr.fer.zemris.java.raytracer" class="SequentialRayTracerProducer" method="calculateRGB" variable="vertical" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'vertical' is not assigned and could be declared final
+</violation>
+<violation beginline="25" endline="25" begincolumn="74" endcolumn="82" rule="MethodArgumentCouldBeFinal" ruleset="Optimization" package="hr.fer.zemris.java.raytracer" class="SequentialRayTracerProducer" method="calculateRGB" variable="width" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'width' is not assigned and could be declared final
+</violation>
+<violation beginline="26" endline="26" begincolumn="25" endcolumn="34" rule="MethodArgumentCouldBeFinal" ruleset="Optimization" package="hr.fer.zemris.java.raytracer" class="SequentialRayTracerProducer" method="calculateRGB" variable="height" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'height' is not assigned and could be declared final
+</violation>
+</file>
+<file name="C:\Users\Domagoj\Documents\JavaTecaj\Java Workspace\raycaster\src\main\java\hr\fer\zemris\java\raytracer\model\Sphere.java">
+<violation beginline="24" endline="201" begincolumn="8" endcolumn="1" rule="CyclomaticComplexity" ruleset="Code Size" package="hr.fer.zemris.java.raytracer.model" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/codesize.html#CyclomaticComplexity" priority="3">
+The class 'Sphere' has a Cyclomatic Complexity of 6 (Highest = 13).
+</violation>
+<violation beginline="24" endline="201" begincolumn="8" endcolumn="1" rule="ModifiedCyclomaticComplexity" ruleset="Code Size" package="hr.fer.zemris.java.raytracer.model" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/codesize.html#ModifiedCyclomaticComplexity" priority="3">
+The class 'Sphere' has a Modified Cyclomatic Complexity of 4 (Highest = 11).
+</violation>
+<violation beginline="24" endline="201" begincolumn="8" endcolumn="1" rule="StdCyclomaticComplexity" ruleset="Code Size" package="hr.fer.zemris.java.raytracer.model" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/codesize.html#StdCyclomaticComplexity" priority="3">
+The class 'Sphere' has a Standard Cyclomatic Complexity of 4 (Highest = 11).
+</violation>
+<violation beginline="30" endline="30" begincolumn="25" endcolumn="30" rule="ImmutableField" ruleset="Design" package="hr.fer.zemris.java.raytracer.model" class="Sphere" variable="center" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/design.html#ImmutableField" priority="3">
+Private field 'center' could be made final; it is only initialized in the declaration or constructor.
+</violation>
+<violation beginline="33" endline="33" begincolumn="24" endcolumn="29" rule="ImmutableField" ruleset="Design" package="hr.fer.zemris.java.raytracer.model" class="Sphere" variable="radius" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/design.html#ImmutableField" priority="3">
+Private field 'radius' could be made final; it is only initialized in the declaration or constructor.
+</violation>
+<violation beginline="36" endline="36" begincolumn="24" endcolumn="26" rule="ImmutableField" ruleset="Design" package="hr.fer.zemris.java.raytracer.model" class="Sphere" variable="kdr" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/design.html#ImmutableField" priority="3">
+Private field 'kdr' could be made final; it is only initialized in the declaration or constructor.
+</violation>
+<violation beginline="38" endline="38" begincolumn="24" endcolumn="26" rule="ImmutableField" ruleset="Design" package="hr.fer.zemris.java.raytracer.model" class="Sphere" variable="kdg" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/design.html#ImmutableField" priority="3">
+Private field 'kdg' could be made final; it is only initialized in the declaration or constructor.
+</violation>
+<violation beginline="40" endline="40" begincolumn="24" endcolumn="26" rule="ImmutableField" ruleset="Design" package="hr.fer.zemris.java.raytracer.model" class="Sphere" variable="kdb" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/design.html#ImmutableField" priority="3">
+Private field 'kdb' could be made final; it is only initialized in the declaration or constructor.
+</violation>
+<violation beginline="42" endline="42" begincolumn="24" endcolumn="26" rule="ImmutableField" ruleset="Design" package="hr.fer.zemris.java.raytracer.model" class="Sphere" variable="krr" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/design.html#ImmutableField" priority="3">
+Private field 'krr' could be made final; it is only initialized in the declaration or constructor.
+</violation>
+<violation beginline="44" endline="44" begincolumn="24" endcolumn="26" rule="ImmutableField" ruleset="Design" package="hr.fer.zemris.java.raytracer.model" class="Sphere" variable="krg" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/design.html#ImmutableField" priority="3">
+Private field 'krg' could be made final; it is only initialized in the declaration or constructor.
+</violation>
+<violation beginline="46" endline="46" begincolumn="24" endcolumn="26" rule="ImmutableField" ruleset="Design" package="hr.fer.zemris.java.raytracer.model" class="Sphere" variable="krb" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/design.html#ImmutableField" priority="3">
+Private field 'krb' could be made final; it is only initialized in the declaration or constructor.
+</violation>
+<violation beginline="48" endline="48" begincolumn="24" endcolumn="26" rule="ImmutableField" ruleset="Design" package="hr.fer.zemris.java.raytracer.model" class="Sphere" variable="krn" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/design.html#ImmutableField" priority="3">
+Private field 'krn' could be made final; it is only initialized in the declaration or constructor.
+</violation>
+<violation beginline="74" endline="85" begincolumn="16" endcolumn="9" rule="CallSuperInConstructor" ruleset="Controversial" package="hr.fer.zemris.java.raytracer.model" class="Sphere" method="Sphere" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/controversial.html#CallSuperInConstructor" priority="3">
+It is a good practice to call super() in a constructor
+</violation>
+<violation beginline="74" endline="74" begincolumn="23" endcolumn="36" rule="MethodArgumentCouldBeFinal" ruleset="Optimization" package="hr.fer.zemris.java.raytracer.model" class="Sphere" method="Sphere" variable="center" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'center' is not assigned and could be declared final
+</violation>
+<violation beginline="74" endline="74" begincolumn="66" endcolumn="75" rule="MethodArgumentCouldBeFinal" ruleset="Optimization" package="hr.fer.zemris.java.raytracer.model" class="Sphere" method="Sphere" variable="kdg" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'kdg' is not assigned and could be declared final
+</violation>
+<violation beginline="74" endline="74" begincolumn="54" endcolumn="63" rule="MethodArgumentCouldBeFinal" ruleset="Optimization" package="hr.fer.zemris.java.raytracer.model" class="Sphere" method="Sphere" variable="kdr" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'kdr' is not assigned and could be declared final
+</violation>
+<violation beginline="74" endline="74" begincolumn="39" endcolumn="51" rule="MethodArgumentCouldBeFinal" ruleset="Optimization" package="hr.fer.zemris.java.raytracer.model" class="Sphere" method="Sphere" variable="radius" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'radius' is not assigned and could be declared final
+</violation>
+<violation beginline="75" endline="75" begincolumn="25" endcolumn="34" rule="MethodArgumentCouldBeFinal" ruleset="Optimization" package="hr.fer.zemris.java.raytracer.model" class="Sphere" method="Sphere" variable="kdb" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'kdb' is not assigned and could be declared final
+</violation>
+<violation beginline="75" endline="75" begincolumn="61" endcolumn="70" rule="MethodArgumentCouldBeFinal" ruleset="Optimization" package="hr.fer.zemris.java.raytracer.model" class="Sphere" method="Sphere" variable="krb" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'krb' is not assigned and could be declared final
+</violation>
+<violation beginline="75" endline="75" begincolumn="49" endcolumn="58" rule="MethodArgumentCouldBeFinal" ruleset="Optimization" package="hr.fer.zemris.java.raytracer.model" class="Sphere" method="Sphere" variable="krg" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'krg' is not assigned and could be declared final
+</violation>
+<violation beginline="75" endline="75" begincolumn="73" endcolumn="82" rule="MethodArgumentCouldBeFinal" ruleset="Optimization" package="hr.fer.zemris.java.raytracer.model" class="Sphere" method="Sphere" variable="krn" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'krn' is not assigned and could be declared final
+</violation>
+<violation beginline="75" endline="75" begincolumn="37" endcolumn="46" rule="MethodArgumentCouldBeFinal" ruleset="Optimization" package="hr.fer.zemris.java.raytracer.model" class="Sphere" method="Sphere" variable="krr" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'krr' is not assigned and could be declared final
+</violation>
+<violation beginline="88" endline="88" begincolumn="59" endcolumn="65" rule="MethodArgumentCouldBeFinal" ruleset="Optimization" package="hr.fer.zemris.java.raytracer.model" class="Sphere" method="findClosestRayIntersection" variable="ray" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'ray' is not assigned and could be declared final
+</violation>
+<violation beginline="88" endline="157" begincolumn="16" endcolumn="9" rule="CyclomaticComplexity" ruleset="Code Size" package="hr.fer.zemris.java.raytracer.model" class="Sphere" method="findClosestRayIntersection" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/codesize.html#CyclomaticComplexity" priority="3">
+The method 'findClosestRayIntersection' has a Cyclomatic Complexity of 13.
+</violation>
+<violation beginline="88" endline="157" begincolumn="16" endcolumn="9" rule="ModifiedCyclomaticComplexity" ruleset="Code Size" package="hr.fer.zemris.java.raytracer.model" class="Sphere" method="findClosestRayIntersection" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/codesize.html#ModifiedCyclomaticComplexity" priority="3">
+The method 'findClosestRayIntersection' has a Modified Cyclomatic Complexity of 11.
+</violation>
+<violation beginline="88" endline="157" begincolumn="16" endcolumn="9" rule="StdCyclomaticComplexity" ruleset="Code Size" package="hr.fer.zemris.java.raytracer.model" class="Sphere" method="findClosestRayIntersection" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/codesize.html#StdCyclomaticComplexity" priority="3">
+The method 'findClosestRayIntersection' has a Standard Cyclomatic Complexity of 11.
+</violation>
+<violation beginline="91" endline="94" begincolumn="17" endcolumn="53" rule="LocalVariableCouldBeFinal" ruleset="Optimization" package="hr.fer.zemris.java.raytracer.model" class="Sphere" method="findClosestRayIntersection" variable="underRoot" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'underRoot' could be declared final
+</violation>
+<violation beginline="97" endline="97" begincolumn="25" endcolumn="36" rule="OnlyOneReturn" ruleset="Controversial" package="hr.fer.zemris.java.raytracer.model" class="Sphere" method="findClosestRayIntersection" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/controversial.html#OnlyOneReturn" priority="3">
+A method should have only one exit point, and that should be the last statement in the method
+</violation>
+<violation beginline="100" endline="100" begincolumn="17" endcolumn="50" rule="LocalVariableCouldBeFinal" ruleset="Optimization" package="hr.fer.zemris.java.raytracer.model" class="Sphere" method="findClosestRayIntersection" variable="root" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'root' could be declared final
+</violation>
+<violation beginline="101" endline="101" begincolumn="17" endcolumn="87" rule="LocalVariableCouldBeFinal" ruleset="Optimization" package="hr.fer.zemris.java.raytracer.model" class="Sphere" method="findClosestRayIntersection" variable="firstArg" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'firstArg' could be declared final
+</violation>
+<violation beginline="103" endline="103" begincolumn="17" endcolumn="46" rule="LocalVariableCouldBeFinal" ruleset="Optimization" package="hr.fer.zemris.java.raytracer.model" class="Sphere" method="findClosestRayIntersection" variable="dist1" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'dist1' could be declared final
+</violation>
+<violation beginline="104" endline="104" begincolumn="17" endcolumn="46" rule="LocalVariableCouldBeFinal" ruleset="Optimization" package="hr.fer.zemris.java.raytracer.model" class="Sphere" method="findClosestRayIntersection" variable="dist2" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'dist2' could be declared final
+</violation>
+<violation beginline="107" endline="107" begincolumn="25" endcolumn="36" rule="OnlyOneReturn" ruleset="Controversial" package="hr.fer.zemris.java.raytracer.model" class="Sphere" method="findClosestRayIntersection" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/controversial.html#OnlyOneReturn" priority="3">
+A method should have only one exit point, and that should be the last statement in the method
+</violation>
+<violation beginline="110" endline="110" begincolumn="17" endcolumn="65" rule="LocalVariableCouldBeFinal" ruleset="Optimization" package="hr.fer.zemris.java.raytracer.model" class="Sphere" method="findClosestRayIntersection" variable="distance" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'distance' could be declared final
+</violation>
+<violation beginline="112" endline="113" begincolumn="17" endcolumn="58" rule="LocalVariableCouldBeFinal" ruleset="Optimization" package="hr.fer.zemris.java.raytracer.model" class="Sphere" method="findClosestRayIntersection" variable="intersection" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'intersection' could be declared final
+</violation>
+<violation beginline="169" endline="169" begincolumn="42" endcolumn="53" rule="MethodArgumentCouldBeFinal" ruleset="Optimization" package="hr.fer.zemris.java.raytracer.model" class="Sphere" method="determineDistance" variable="dist1" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'dist1' is not assigned and could be declared final
+</violation>
+<violation beginline="169" endline="169" begincolumn="56" endcolumn="67" rule="MethodArgumentCouldBeFinal" ruleset="Optimization" package="hr.fer.zemris.java.raytracer.model" class="Sphere" method="determineDistance" variable="dist2" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'dist2' is not assigned and could be declared final
+</violation>
+<violation beginline="193" endline="193" begincolumn="33" endcolumn="39" rule="MethodArgumentCouldBeFinal" ruleset="Optimization" package="hr.fer.zemris.java.raytracer.model" class="Sphere" method="isOuter" variable="ray" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'ray' is not assigned and could be declared final
+</violation>
+<violation beginline="194" endline="198" begincolumn="17" endcolumn="17" rule="SimplifyBooleanReturns" ruleset="Design" package="hr.fer.zemris.java.raytracer.model" class="Sphere" method="isOuter" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/design.html#SimplifyBooleanReturns" priority="3">
+Avoid unnecessary if..then..else statements when returning booleans
+</violation>
+<violation beginline="195" endline="195" begincolumn="25" endcolumn="36" rule="OnlyOneReturn" ruleset="Controversial" package="hr.fer.zemris.java.raytracer.model" class="Sphere" method="isOuter" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/controversial.html#OnlyOneReturn" priority="3">
+A method should have only one exit point, and that should be the last statement in the method
+</violation>
+</file>
+</pmd>
